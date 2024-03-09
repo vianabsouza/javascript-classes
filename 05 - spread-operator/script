@@ -24,6 +24,6 @@ console.log(soma(...valores))
 const objetoUm = document.getElementsByTagName("div") // HTMLCollection - Poucas opções para operações
 const objetoDois = [...document.getElementsByTagName("div")] // Array - Mais opçoes para operações
 
-objetoDois.forEach(element => { // Vai funcuonar por ser Array, caso seja HTMLCollection, não irá funcionar
+objetoDois.forEach(element => { // Vai funcionar por ser Array, caso seja HTMLCollection, não irá funcionar
   console.log(element)
 })
