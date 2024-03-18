@@ -6,7 +6,7 @@ if (true) {
   let nome = "Barbara"
 }
 
-console.log(nome);
+console.log(nome); // nome is not defined
 
 
 // 02
@@ -14,10 +14,10 @@ console.log(nome);
 function infoIdade() {
   let idade = 30;
   if(true) {
-    console.log("Dentro do IF do teste: " + idade);
+    console.log("Dentro do IF do teste: " + idade); // funciona
   }
-  console.log("Fora do IF do teste: " + idade);
+  console.log("Fora do IF do teste: " + idade); // funciona
 }
 
 infoIdade();
-console.log("Fora de teste: " + idade);
+console.log("Fora de teste: " + idade); // idade is not defined
